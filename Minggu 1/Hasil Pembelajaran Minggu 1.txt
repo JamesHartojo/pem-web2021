@@ -1,0 +1,15 @@
+Nama : James Hartojo
+NIM : A11.2021.13221
+Kelas : 4101
+
+Hal-Hal yang Telah Dipelajari Selama Minggu 1:
+- Registrasi dan membuat akun GitHub
+- Melakukan instalasi Git
+- Membuat repository
+- Membuat remote antar file lokal dengan repository di GitHub
+- Membuat branch utama
+- Melakukan commit dengan melakukan perubahan pada folder dan file 
+  di repository
+- Melakukan push dari file lokal ke repository di GitHub
+
+*Isi diatas dapat berubah seiring waktu
