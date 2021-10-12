@@ -11,5 +11,7 @@ Hal-Hal yang Telah Dipelajari Selama Minggu 1:
 - Melakukan commit dengan melakukan perubahan pada folder dan file 
   di repository
 - Melakukan push dari file lokal ke repository di GitHub
+- Mempelajari cara kerja web server
+- Mempelajari cara memulai server menggunakan XAMPP
 
 *Isi diatas dapat berubah seiring waktu
