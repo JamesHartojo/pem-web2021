@@ -4,5 +4,7 @@ Kelas : 4101
 
 Hal-Hal yang Telah Dipelajari Selama Minggu 2:
 
+1. Mempelajari berbagai banyak hal di HTML untuk membuat tampilan website (Lebih detailnya di
+   file latihan dan file tugas biodata)
 
 *Isi diatas dapat berubah seiring waktu
