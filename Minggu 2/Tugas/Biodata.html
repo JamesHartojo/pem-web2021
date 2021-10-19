@@ -2,9 +2,47 @@
 <html lang="en">
     <head>
         <title>Biodata Mahasiswa UDINUS</title>
+    <style>
+        body{
+            background-image: url(https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: calibri;
+            font-size: 17px;
+        }
+        .table1 table{
+            background-color: darkblue;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .table2 table{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .table2 th{
+            text-align: left;
+            width: 40%;
+            background-color: lightgray;
+        }
+        .table2 td:nth-child(2){
+            border-bottom: 1px solid black;
+        }
+        .table3 table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            text-align: center;
+        }
+        .table3 td{
+            background-color: white;
+        }
+    </style>
     </head>
     <body>
-        <table style="margin-right: auto;margin-left: auto;background-color: darkblue;">
+        <div class="table1">
+        <table>
             <tr>
                 <td rowspan="2">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Logo_udinus1.jpg/595px-Logo_udinus1.jpg" alt="Logo UDINUS" width="100px">
@@ -16,7 +54,9 @@
                 </td>
             </tr>
         </table>
-        <h2 style="color: black;text-align: center;background-color:dodgerblue;"><b>Biodata Mahasiswa</b></h2>
+        </div>
+        <h2 style="color: black;background-color:dodgerblue;font-size: 30px;font-family: 'Times New Roman', Times, serif;text-align: center;"><b>Biodata Mahasiswa</b></h2>
+            <div class="table2">
             <table>
                 <tr>
                     <td rowspan="11">
@@ -24,48 +64,50 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="width: 40%;background-color: lightgray;"><b>Nama</b></td>
-                    <td style="border-bottom: 1px solid black;">:  James Hartojo</td>
+                    <th>Nama</th>
+                    <td>:  James Hartojo</td>
                 </tr>
                 <tr>
-                    <td style="background-color:lightgray;"><b>NIM</b></td>
-                    <td style="border-bottom: 1px solid black;">: A11.2021.13221</td>
+                    <th>NIM</th>
+                    <td>: A11.2021.13221</td>
                 </tr>
                 <tr>
-                    <td style="background-color:lightgray;"><b>Dosen Wali</b></td>>
-                    <td style="border-bottom: 1px solid black;">:  Ricardus Anggi Pramunendar</td>
+                    <th>Dosen Wali</th>>
+                    <td>:  Ricardus Anggi Pramunendar</td>
                 </tr>
                 <tr>
-                    <td style="background-color:lightgray;"><b>Status</b></td>
-                    <td style="border-bottom: 1px solid black;">:   Aktif</td>
+                    <th>Status</th>
+                    <td>:   Aktif</td>
                 </tr>
                 <tr>
-                    <td style="background-color:lightgray;"><b>Alamat</b></td>
-                    <td style="border-bottom: 1px solid black;">:   Puri Anjasmoro Blok M1/12A</td>
+                    <th>Alamat</th>
+                    <td>:   Puri Anjasmoro Blok M1/12A</td>
                 </tr>
                 <tr>
-                    <td style="background-color:lightgray;"><b>Nomor Telepon</b></td>
-                    <td style="border-bottom: 1px solid black;">:    08156504334</td>
+                    <th>Nomor Telepon</th>
+                    <td>:    08156504334</td>
                 </tr>
                 <tr>
-                    <td style="background-color:lightgray;"><b>Email</b></td>
-                    <td style="border-bottom: 1px solid black;">:   111202113221@mhs.dinus.ac.id</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td style="border-bottom: 1px solid black;">&nbsp;&nbsp;jameshartojo@gmail.com</td>
+                    <th>Email</th>
+                    <td>:   111202113221@mhs.dinus.ac.id</td>
                 </tr>
                 <tr>
                     <td></td>
-                    <td style="border-bottom: 1px solid black;">&nbsp;&nbsp;jameshartojo16@gmail.com</td>
+                    <td>&nbsp;&nbsp;jameshartojo@gmail.com</td>
                 </tr>
                 <tr>
-                    <td style="background-color:lightgray;"><b>Agama</b></td>
-                    <td style="border-bottom: 1px solid black;">: Katholik</td>
+                    <td></td>
+                    <td>&nbsp;&nbsp;jameshartojo16@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>Agama</th>
+                    <td>: Katholik</td>
                 </tr>
             </table>
+            </div>
         <h2 style="background-color: skyblue;text-align: left;">&nbsp;Jadwal KRS</h2>
-            <table style="border: 1px solid black;text-align: center;width: 100%;">
+            <div class="table3">
+            <table border="1">
                 <tr style="background-color: navajowhite;"><b>
                     <th>No</th>
                     <th>Kode Mata Kuliah</th>
@@ -130,6 +172,7 @@
                     <td>2</td>
                     <td>B</td>
                 </tr>
+                </div>
             </table>
     </body>
 </html>
