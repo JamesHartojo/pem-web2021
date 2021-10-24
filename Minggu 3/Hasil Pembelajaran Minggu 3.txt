@@ -4,5 +4,7 @@ Kelas : 4101
 
 Hal-Hal yang Telah Dipelajari Selama Minggu 3:
 
+1. Mempelajari fitur-fitur multimedia HTML (Detailnya ada di file biodata dan file latihan)
+
 
 *Isi diatas dapat berubah seiring waktu
