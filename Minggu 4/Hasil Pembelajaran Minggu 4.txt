@@ -4,5 +4,7 @@ Kelas : 4101
 
 Hal-Hal yang Telah Dipelajari Selama Minggu 4:
 
+1. Mempelajari cara pembuatan form di HTML (Lebih detail di folder tugas dan praktikum)
+2. Mencoba menjalankan form di web server dan berjalan dgn sesuai
 
 *Isi diatas dapat berubah seiring waktu
