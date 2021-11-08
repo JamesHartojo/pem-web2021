@@ -1,0 +1,13 @@
+Nama : James Hartojo
+NIM : A11.2021.13221
+Kelas : 4101
+
+Hal-Hal yang Telah Dipelajari Selama Minggu 5:
+
+1. Mempelajari elemen-elemen semantik audio dan video HTML.
+2. Mempelajari elemen-elemen semantik HTML seperti header, summary, article, nav, dan lain-lain.
+3. Berhasil menjalankan subtitle video dengan ditest melalui web server XAMPP. 
+
+(Lebih detail berada di file-file praktikum)
+
+*Isi diatas dapat berubah seiring waktu
