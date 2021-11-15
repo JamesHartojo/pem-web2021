@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(https://s3.envato.com/files/247451692/4.%20Preview%20Image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    font-family:'Franklin Gothic Medium';
+    font-size: 15px ;
+} 
+
+nav ul {
+    background:#002456;
+    padding: 5px;
+    list-style:none;
+    position:relative;
+    display:inline-table;
+    width: 100%;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li:hover{
+    background:#64b9ee;
+}
+
+nav ul li:hover a{
+    color:#edcf2e;
+}
+
+nav ul li a{
+    display: block;
+    padding: 25px;
+    color: #edcf2e;
+
+}
+
+.tentang{
+    padding: 30px;
+}
+
+.kontak{
+    padding: 30px;
+}
+
+.table2 table{
+    border-collapse: collapse;
+}
+
+.table2 td{
+    border-radius: 20px;
+    background-color:#955f26;
+    padding: 20px;
+    color: white;
+}
+
+.table1 table{
+    border-collapse: collapse;
+}
+
+.table1 th{
+    background-color: #002456;
+    padding: 5px;
+    color:white ;
+}
+
+.table1 td{
+    background-color: #edcf2e;
+    padding: 5px;
+}
+
+footer{
+    text-align: center;
+    max-width: 100%;
+    background-color: #002456;
+    color:#e1c1a4;
+}
