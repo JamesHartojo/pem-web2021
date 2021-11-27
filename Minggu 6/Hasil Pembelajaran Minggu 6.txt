@@ -2,7 +2,7 @@ Nama : James Hartojo
 NIM : A11.2021.13221
 Kelas : 4101
 
-Hal-Hal yang Telah Dipelajari Selama Minggu 5:
+Hal-Hal yang Telah Dipelajari Selama Minggu 6:
 
 1. Mempelajari praktik penggunaan elemen-elemen semantik HTML seperti header, footer, dll.
 2. Mempelajari pembuatan desain tampilan web dengan figma.
