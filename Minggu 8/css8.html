@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Penggunaan Selector Universal</title>
+    <style>
+        * {
+            border: 1px solid red;
+            border-radius: 20px;
+        }
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        #header{
+            text-align: center;
+            background: black;
+            padding: 100px;
+            color: cornflowerblue;
+        }
+        .subjudul{
+            text-align: center;
+            color: cornsilk;
+        }
+        input[type=text] {
+            background: purple;
+            color: palegreen;
+            padding: 15px;
+            border: 1px solid blueviolet;
+        }
+        label{
+            background: burlywood;
+            color: red;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        Welcome to my website
+        <p class="subjudul">Enjoy!!</p>
+    </header>
+    <label>Nama Lengkap</label>
+    <input type="text" placeholder="Masukkan nama anda..." />
+</body>
+
+</html>
