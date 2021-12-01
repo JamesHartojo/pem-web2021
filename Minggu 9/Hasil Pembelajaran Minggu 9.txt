@@ -1,0 +1,12 @@
+Nama : James Hartojo
+NIM : A11.2021.13221
+Kelas : 4101
+
+Hal-Hal yang Telah Dipelajari Selama Minggu 9:
+
+1. Mempelajari penggunaan efek-efek baru di css, seperti transition, animation,scale,
+   efek melengkung,dan lain-lain.
+
+(Lebih detail berada di file-file tugas)
+
+*Isi diatas dapat berubah seiring waktu
