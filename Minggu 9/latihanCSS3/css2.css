@@ -1,0 +1,65 @@
+    body{
+    background: #35A9DB;
+    font-family: roboto;
+    text-align: center;
+    }
+
+    h1{
+    color: #fff;
+    }
+
+    .ketengah{
+    margin: 10px auto;
+    width: 1150px;
+    }
+    
+    .kotak{
+    background: blue;
+    width: 500px;
+    float: left;
+    height: 250px;
+    margin: 30px;
+    }
+
+    .gradient1 {
+    background: linear-gradient(blue, pink); /* Standard syntax */
+    background: -webkit-linear-gradient(blue, pink); /* For Safari 5.1 to 
+    6.0 */
+    background: -o-linear-gradient(blue, pink); /* For Opera 11.1 to 12.0 
+    */
+    background: -moz-linear-gradient(blue, pink); /* For Firefox 3.6 to 15 
+    */
+    }
+
+    .gradient2 {
+    background: linear-gradient(to right, black , red, yellow); /* Standard 
+    syntax */
+    background: -webkit-linear-gradient(left, black , red, yellow); /* For 
+    Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, black , red, yellow); /* For Opera 
+    11.1 to 12.0 */
+    background: -moz-linear-gradient(right, black , red, yellow); /* For 
+    Firefox 3.6 to 15 */
+    }
+
+    .gradient3 { 
+     background: radial-gradient(pink, white,blue); /* Standard syntax */
+     background: -webkit-radial-gradient(pink, white,blue); /* Safari 5.1 
+    to 6.0 */
+     background: -o-radial-gradient(pink, white,blue); /* For Opera 11.6 
+    to 12.0 */
+     background: -moz-radial-gradient(pink, white,blue); /* For Firefox 
+    3.6 to 15 */
+    }
+
+    .gradient4 {
+     background: radial-gradient(circle, blue,red,yellow); /* Standard 
+    syntax */ 
+     background: -webkit-radial-gradient(circle, blue,red,yellow); /* 
+    Safari */
+     background: -o-radial-gradient(circle, blue,red,yellow); /* Opera 
+    11.6 to 12.0 */
+     background: -moz-radial-gradient(circle, blue,red,yellow); /* 
+    Firefox 3.6 to 15 */
+    }
+    
