@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Aritmatika</title>
+</head>
+<body>
+    <script>
+        var a = 15;
+        var b = 4;
+        var c = 0;
+        var panjang = 5;
+        var lebar = 10;
+        var tinggi = 8;
+        var volume_persegi_panjang;
+        const pi = 3.14;
+        var jari2 = 10;
+        var volume_bola;
+        
+        //Volume persegi panjang
+        volume_persegi_panjang = panjang*lebar*tinggi;
+        document.write("Volume Persegi Panjang " + `${panjang} * ${lebar} * ${tinggi} = ${volume_persegi_panjang} <br/>`)
+        //Volume bola
+        volume_bola = 4*(pi*jari2*jari2*jari2)/3;
+        document.write("Volume Bola " + `4*(${pi} * ${jari2} * ${jari2} * ${jari2})/3 = ${volume_bola} <br/>`)
+        // pengurangan
+        c = a - b;
+        document.write(`${a} - ${b} = ${c}<br/>`);
+        // Perkalian
+        c = a * b;
+        document.write(`${a} * ${b} = ${c}<br/>`);
+        // pemangkatan
+        c = a ** b;
+        document.write(`${a} ** ${b} = ${c}<br/>`);
+        // Pembagian
+        c = a / b;
+        document.write(`${a} / ${b} = ${c}<br/>`);
+        // Modulo
+        c = a % b;
+        document.write(`${a} % ${b} = ${c}<br/>`);
+    </script>
+</body>
+</html>

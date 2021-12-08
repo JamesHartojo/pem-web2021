@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Bitwise</title>
+</head>
+<body>
+    <script>
+        var x = 4;
+        var y = 3;
+        var a = 6;
+        var b = 2;
+        // operator bitwise and
+        var hasil1 = x & y;
+        var hasil2 = a & b;
+        document.write(`${x} & ${y} = ${hasil1}<br/>`);
+        document.write(`${a} & ${b} = ${hasil2}<br/>`);
+
+        // operator bitwise or
+        var hasil1 = x | y;
+        var hasil2 = a | b;
+        document.write(`${x} | ${y} = ${hasil1}<br/>`);
+        document.write(`${a} | ${b} = ${hasil2}<br/>`);
+
+        // operator bitwise xor
+        var hasil1 = x ^ y;
+        var hasil2 = a ^ b;
+        document.write(`${x} ^ ${y} = ${hasil1}<br/>`);
+        document.write(`${a} ^ ${b} = ${hasil2}<br/>`);
+
+        // operator negasi
+        var hasil1 = ~x;
+        var hasil2 = ~a;
+        document.write(`~${x} = ${hasil1}<br/>`);
+        document.write(`~${a} = ${hasil2}<br/>`);
+
+        // operator bitwise right shift >>
+        var hasil1 = x >> y;
+        var hasil2 = a >> b;
+        document.write(`${x} >> ${y} = ${hasil1}<br/>`);
+        document.write(`${a} >> ${b} = ${hasil2}<br/>`);
+
+        // operator bitwise left shift <<
+        var hasil1 = x << y;
+        var hasil2 = a << b;
+        document.write(`${x} << ${y} = ${hasil1}<br/>`);
+        document.write(`${a} << ${b} = ${hasil2}<br/>`);
+
+        // operator bitwise right shift (unsigned) >>>
+        var hasil1 = x >>> y;
+        var hasil2 = a >>> b;
+        document.write(`${x} >>> ${y} = ${hasil1}<br/>`);
+        document.write(`${a} >>> ${b} = ${hasil2}<br/>`);
+
+    </script>
+</body>
+</html>
