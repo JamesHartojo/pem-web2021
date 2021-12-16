@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percabangan Ternary</title>
+</head>
+
+<body>
+    <script>
+        var jwb = prompt("1. Apakah Jakarta ibu kota Indonesia?");
+        
+        var jawaban = (jwb.toUpperCase() == "IYA") ? "<h2>Benar</h2>": "<h2>Salah</h2>";
+        
+        document.write(`Jawaban pertanyaan 1 anda: <b>${jawaban}</b>`);
+
+        var jwb2 = prompt("2. Apakah benar proklamasi kemerdekaan Indonesia pada tanggal 17 Agustus 1945")
+
+        var jawaban2 = (jwb2.toUpperCase() == "IYA") ?
+        "<h2>Benar</h2>" : "<h2>Salah</h2>";
+
+        document.write(`Jawaban pertanyaan 2 anda: <b>${jawaban2}</b>`);
+
+        if(jwb == "IYA" && jwb2 == "IYA")
+        {
+            document.write("Anda mendapatkan uang Rp50.000,- dipotong pajak");
+        }
+        else
+        {
+            document.write("Maaf anda belum beruntung!")
+        }
+    </script>
+</body>
+
+</html>

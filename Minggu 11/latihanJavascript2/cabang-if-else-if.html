@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percabangan if/else/if</title>
+</head>
+<body>
+    <script>
+        var nilai = prompt("Inputkan nilai akhir:");
+        var grade = "";
+
+        if (nilai >= 90)
+        {
+            grade = "A"
+            document.write("<h2>Selamat anda lulus!</h2>")
+        } 
+        else if(nilai >= 80) 
+        {
+            grade = "B+"
+            document.write("<h2>Selamat anda lulus!</h2>")
+        } 
+        else if(nilai >= 70) 
+        {
+            grade = "B"
+            document.write("<h2>Selamat anda lulus!</h2>")
+        } 
+        else if(nilai >= 60) 
+        {
+            grade = "C+"
+            document.write("<h2>Selamat anda lulus!</h2>")
+        } 
+        else if(nilai >= 50) 
+        {
+            grade = "C"
+            document.write("<h2>Selamat anda lulus!</h2>")
+        } 
+        else if(nilai >= 40) 
+        {
+            grade = "D"
+            document.write("<h2>Maaf anda belum lulus, tetap semangat!</h2>")
+        } 
+        else if(nilai >= 30) 
+        {
+            grade = "E"
+            document.write("<h2>Maaf anda belum lulus, tetap semangat!</h2>")
+        } 
+        else { 
+            grade = "F";
+            document.write("<h2>Maaf anda belum lulus, tetap semangat!</h2>")
+        }
+
+        document.write(`<p>Grade anda: ${grade}</p>`);
+    </script>
+</body>
+</html>
