@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM API Javascript</title>
+</head>
+
+<body>
+    <script>
+        // membuat element
+        var judul = document.createElement("h1");
+        var subJudul = document.createElement("h3");
+        var paragraf = document.createElement("p");
+        var jeda = document.createElement("br");
+
+        // mengisi kontent elemen
+        judul.textContent ="Belajar Javascript";
+        subJudul.textContent ="Oleh JamesH A11.2021.13221";
+        paragraf.textContent="Belajar Javascript sangatlah menyenangkan";
+
+        // menambahkan elemen ke dalam tag body
+        document.body.append(judul);
+        document.body.append(subJudul);
+        document.body.append(jeda);
+        document.body.append(paragraf);
+    </script>
+</body>
+
+</html>

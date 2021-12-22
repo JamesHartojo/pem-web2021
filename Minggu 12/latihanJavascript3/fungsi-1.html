@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembuatan Fungsi Javascript</title>
+</head>
+
+<body>
+    <script>
+        // membuat fungsi
+        var sayHello = () => alert("Hello World");
+        var login = () => {
+            prompt("Masukkan username: ")
+            prompt("Masukkan password: ")
+            alert("Selamat anda telah login")
+        }
+    </script>
+
+    <!-- Memanggil fungsi saat link diklik -->
+    <a href="#" onclick="sayHello()">Klik Aku!</a>
+    <br>
+    <a href="#" onclick="login()">Login Dulu Yuk!</a>
+</body>
+
+</html>

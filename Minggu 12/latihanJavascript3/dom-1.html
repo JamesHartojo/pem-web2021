@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memilih Elemen Berdasarkan ID</title>
+</head>
+
+<body>
+    <!-- Elemen div yang akan dipilih dari JS -->
+    <div id="tutorial"></div>
+    <div id="tutorial2"></div>
+    <div id="tutorial3"></div>
+
+    <script type="text/javascript">
+        //mengakses elemen tutorial
+        var tutorial = document.getElementById("tutorial")
+        var tutorial2 = document.getElementById("tutorial2")
+        var tutorial3 = document.getElementById("tutorial3")
+
+        //mengisi teks ke dalam elemen
+        tutorial.innerText = "Tutorial Javascript 1"
+        tutorial2.innerText = "Tutorial Javascript 2"
+        tutorial3.innerText = "Tutorial Javascript 3"
+
+        //memberikan CSS ke elemen
+        // tutorial1
+        tutorial.style.fontFamily = "cambria";
+        tutorial.style.color = "blue";
+        tutorial.style.background = "orange";
+        tutorial.style.padding= "15px";
+        tutorial.style.border="3px solid chocolate"
+        // tutorial2
+        tutorial2.style.margin = "1em"
+        tutorial2.style.fontFamily = "impact";
+        tutorial2.style.color = "red";
+        tutorial2.style.background = "black";
+        tutorial2.style.padding= "60px";
+        tutorial2.style.textAlign = "center";
+        // tutorial3
+        tutorial3.style.margin="2em";
+        tutorial3.style.fontFamily = "verdana";
+        tutorial3.style.color = "purple";
+        tutorial3.style.background = "lightblue";
+        tutorial3.style.padding= "105px";
+        tutorial3.style.border="5px solid red"
+        tutorial3.style.textAlign="right";
+    </script>
+</body>
+
+</html>
