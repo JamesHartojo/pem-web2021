@@ -1,0 +1,11 @@
+Nama : James Hartojo
+NIM : A11.2021.13221
+Kelas : 4101
+
+Hal-Hal yang Telah Dipelajari Selama Minggu 13:
+
+1. Mempelajari tentang penggunaan AJAX dan JSON
+
+(Lebih detail berada di file-file tugas)
+
+*Isi diatas dapat berubah seiring waktu
